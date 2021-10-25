@@ -1,0 +1,59 @@
+alias copy="clip.exe"
+
+# be nice
+alias please=sudo
+
+# Easier navigation: .., ..., ~ and -
+alias ..="cd .."
+alias cd..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~" # `cd` is probably faster to type though
+alias -- -="cd -"
+
+# GIT STUFF
+
+# Undo a `git push`
+alias undopush="git push -f origin HEAD^:master"
+
+# SHORTCUTS
+
+#git aliases
+alias g="git"
+alias ghd="github"
+alias gl="git log --oneline --all --graph --decorate"
+alias gr='[ ! -z `git rev-parse --show-cdup` ] && cd `git rev-parse --show-cdup || pwd`'
+alias gs="git status"
+alias gsl="git stash list"
+alias gsp="git stash pop"
+alias gss="git stash save"
+alias gptags="git push && git push --tags"
+
+# npm aliases
+alias ns='npm search'
+alias np='npm prune'
+alias nig='npm install -g'
+alias nug='npm update -g'
+alias ni='npm install'
+alias nid='npm install --save-dev'
+alias nu='npm update'
+alias nrm='npm rm'
+
+alias start='npm start'
+alias dev='npm run dev'
+alias watch='npm run watch'
+alias build='npm run build'
+alias deploy='npm run deploy'
+alias publish='npm run publish'
+alias format='npm run format'
+alias validate='npm run validate'
+alias lint='npm run lint'
+alias slint='npm run lint:styles'
+
+alias ncus='ncu --dep=prod,dev'
+alias ncup='ncu -ui --dep=prod,dev'
+
+alias t='npm test'
+alias tc='npm run test:coverage'
+alias tw='npm run test:watch'
