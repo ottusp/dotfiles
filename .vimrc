@@ -137,7 +137,7 @@ set lazyredraw "melhoria de desempenho
 set history=1000 "historico de comandos
 set showcmd "mostra comandos sendo digitados na barra inferior
 set hidden "melhor uso de buffers na mesma janela
-set backup "gera arquivo de backup
+"set backup "gera arquivo de backup
 set ttyfast "melhoria de desempenho, ver :h ttyfast
 set title "muda o titulo do terminal
 set encoding=utf-8 "codificacao utf-8
