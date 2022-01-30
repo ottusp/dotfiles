@@ -1,2 +1,4 @@
-# Allow npm to install globally
-sudo chown -R $USER /usr/local/lib/node_modules
+# Create global node_modules on home
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global'
+echo "export PATH=~/.npm-global/bin:$PATH" >> ~/.profile
