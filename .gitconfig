@@ -1,0 +1,11 @@
+[user]
+	email = 48037630+ottusp@users.noreply.github.com
+	name = Otto Fernandes
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	excludesFile = ~/.gitignore
+	editor = vim
