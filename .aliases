@@ -21,12 +21,15 @@ alias undopush="git push -f origin HEAD^:master"
 
 #git aliases
 alias g="git"
+alias gc"git checkout"
 alias ghd="github"
 alias gl="git log --oneline --all --graph --decorate"
 alias gr='[ ! -z `git rev-parse --show-cdup` ] && cd `git rev-parse --show-cdup || pwd`'
 alias gs="git status"
+alias gsa="git stash apply"
 alias gsl="git stash list"
 alias gsp="git stash pop"
+alias gspu="git stash push"
 alias gss="git stash save"
 alias gptags="git push && git push --tags"
 
