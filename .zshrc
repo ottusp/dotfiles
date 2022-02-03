@@ -10,8 +10,8 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
-
 export CODE="~/code"
+export PATH=~/.local/bin:$PATH
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 

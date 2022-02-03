@@ -9,3 +9,7 @@
 [core]
 	excludesFile = ~/.gitignore
 	editor = vim
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+[push]
+	default = current
