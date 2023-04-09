@@ -78,12 +78,16 @@ zstyle ':omz:update' frequency 7
 plugins=(git
 	npm
 	fasd
-	command-not-found
+	zsh-syntax-highlighting
 	zsh-autosuggestions
+	auto-notify
+	you-should-use
+	z
+	command-not-found
 )
 
-# Include Z
-. ~/.z.sh
+# Set auto-notify threshold to 5 seconds
+export AUTO_NOTIFY_THRESHOLD=5
 
 source $ZSH/oh-my-zsh.sh
 source ~/.aliases

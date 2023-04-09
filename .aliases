@@ -1,3 +1,5 @@
+#!/bin/bash
+
 alias copy="clip.exe"
 
 # be nice
