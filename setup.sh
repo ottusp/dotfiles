@@ -7,6 +7,7 @@
 ln -s ~/.dotfiles/.aliases ~/.aliases
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/.nilo_zshrc ~/.nilo_zshrc
 ln -s ~/.dotfiles/.p10k.zsh ~/.p10k.zsh
 ln -s ~/.dotfiles/.p10k.zsh ~/.p10k.zsh
 

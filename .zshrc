@@ -122,3 +122,8 @@ source ~/.aliases
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Source sensitive configuration if it exists
+if [ -f "$HOME/.nilo_zshrc" ]; then
+  source "$HOME/.nilo_zshrc"
+fi
