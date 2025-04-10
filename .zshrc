@@ -78,12 +78,14 @@ zstyle ':omz:update' frequency 7
 plugins=(git
 	npm
 	fasd
+	poetry
 	zsh-syntax-highlighting
 	zsh-autosuggestions
 	auto-notify
 	you-should-use
 	z
 	command-not-found
+	direnv
 )
 
 # Set auto-notify threshold to 5 seconds
