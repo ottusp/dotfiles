@@ -67,3 +67,8 @@ alias ncup='ncu -ui --dep=prod,dev'
 alias t='npm test'
 alias tc='npm run test:coverage'
 alias tw='npm run test:watch'
+
+# Source sensitive configuration if it exists
+if [ -f "$HOME/.nilo_aliases" ]; then
+  source "$HOME/.nilo_aliases"
+fi

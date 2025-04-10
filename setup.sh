@@ -5,6 +5,7 @@
 
 # Create symlinks on home directory
 ln -s ~/.dotfiles/.aliases ~/.aliases
+ln -s ~/.dotfiles/.nilo_aliases ~/.nilo_aliases
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.nilo_zshrc ~/.nilo_zshrc
