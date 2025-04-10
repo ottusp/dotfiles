@@ -49,7 +49,7 @@
   # Left prompt segments.
   typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
     # context                 # user@host
-    dir                       # current directory
+	dir		                  # current directory
     vcs                       # git status
     # command_execution_time  # previous command duration
     # virtualenv              # python virtual environment
@@ -63,6 +63,9 @@
     context                   # user@host
     time                      # current time
   )
+
+  # Show only current dir
+  typeset -g POWERLEVEL9K_SHORTEN_STRATEGY=truncate_to_last
 
   # Basic style options that define the overall prompt look.
   typeset -g POWERLEVEL9K_BACKGROUND=                            # transparent background
